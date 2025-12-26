@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Ultimate Music Player UI</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<input type="radio" name="theme" id="green" checked>
+<input type="radio" name="theme" id="purple">
+<input type="radio" name="theme" id="blue">
+
+<div class="themes">
+  <label for="green"></label>
+  <label for="purple"></label>
+  <label for="blue"></label>
+</div>
+
+<div class="player">
+
+<header>
+  <span>🎶 Now Playing</span>
+  <span>☰</span>
+</header>
+
+<div class="album">
+  <img src="album.jpg">
+  <div class="equalizer">
+    <span></span><span></span><span></span><span></span>
+  </div>
+</div>
+
+<h2>Perfect</h2>
+<p>Ed Sheeran</p>
+
+<div class="progress"><div class="fill"></div></div>
+<div class="time"><span>1:45</span><span>4:23</span></div>
+
+<div class="controls">
+  <button>⏮</button>
+  <button class="play">▶</button>
+  <button>⏭</button>
+</div>
+
+<div class="extras">
+  <span>❤️</span>
+  <span>🔁</span>
+  <span>🔀</span>
+</div>
+
+<!-- Lyrics -->
+<div class="lyrics">
+  <h3>Lyrics</h3>
+  <p>
+    I found a love, for me <br>
+    Darling, just dive right in <br>
+    And follow my lead...
+  </p>
+</div>
+
+<!-- Queue -->
+<div class="queue">
+  <h3>Up Next</h3>
+  <ul>
+    <li class="active">Perfect – Ed Sheeran</li>
+    <li>Shape of You</li>
+    <li>Photograph</li>
+    <li>Thinking Out Loud</li>
+    <li>Castle on the Hill</li>
+  </ul>
+</div>
+
+</div>
+</body>
+</html>
+
